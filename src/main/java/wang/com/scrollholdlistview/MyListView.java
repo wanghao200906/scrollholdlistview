@@ -92,7 +92,6 @@ public class MyListView extends ListView {
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
-
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 down = event.getRawY();
